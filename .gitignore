@@ -1,0 +1,25 @@
+# Operating systems
+.DS_Store
+Thumbs.db
+
+# Editors
+.vscode/
+.idea/
+
+# Local secrets and environment files
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+
+# Build outputs
+dist/
+build/
+target/
+bin/
+obj/
+
+# Dependencies
+node_modules/
+vendor/
