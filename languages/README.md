@@ -1,13 +1,22 @@
-# Languages
+# คู่มือภาษาและเทคโนโลยี
 
-This directory contains language-specific learning guides and examples.
+ที่นี่รวบรวมคู่มือภาษาโปรแกรม ภาษาเขียนสคริปต์ ภาษาสำหรับค้นหาข้อมูล รูปแบบข้อมูล และเครื่องมือพัฒนา
 
-Each language folder should include:
+## ทุกคู่มือควรช่วยให้เข้าใจ
 
-- A concise overview and official documentation links.
-- Setup and version requirements.
-- Beginner concepts and syntax examples.
-- Runnable examples with expected output.
-- Links to deeper tutorials and projects.
+- สิ่งนี้คืออะไร และใช้ทำอะไร
+- ทำงานอย่างไรตั้งแต่เขียนจนได้ผลลัพธ์
+- ต้องเตรียมเครื่องมืออะไร
+- แนวคิดพื้นฐานที่ควรรู้
+- วิธีทดลองและฝึกด้วยตัวเอง
+- ข้อผิดพลาดที่มักพบและวิธีตรวจสอบ
 
-The directory is open-ended: contributions for additional programming, scripting, markup, query, and configuration languages are welcome.
+## วิธีเรียน
+
+1. เลือกหัวข้อจากชื่อโฟลเดอร์
+2. อ่านภาพรวมก่อน
+3. ตรวจวิธีติดตั้งจากเอกสารทางการ
+4. ทดลองตัวอย่างด้วยตัวเอง
+5. เปลี่ยนโค้ดทีละจุดแล้วสังเกตผลลัพธ์
+
+จำไว้ว่าแต่ละรายการมีหน้าที่ต่างกัน บางอย่างเป็นภาษาโปรแกรม บางอย่างเป็นรูปแบบข้อมูลหรือเครื่องมือที่โปรแกรมอื่นนำไปใช้

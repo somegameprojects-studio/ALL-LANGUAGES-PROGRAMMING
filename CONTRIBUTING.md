@@ -1,44 +1,34 @@
-# Contributing
+# แนวทางการมีส่วนร่วม
 
-Thank you for helping improve All Languages Programming!
+เป้าหมายของคลังนี้คือทำให้ความรู้ด้านโปรแกรมและเทคโนโลยีอ่านเข้าใจได้ง่าย โดยใช้ภาษาไทยเป็นหลัก
 
-## Ways to contribute
+## สิ่งที่ช่วยกันทำได้
 
-- Add or improve a language guide.
-- Submit a small, runnable code example.
-- Write a beginner-friendly tutorial.
-- Fix errors, broken links, or unclear explanations.
-- Add reputable learning resources.
+- เพิ่มหรือปรับปรุงคู่มือ
+- เพิ่มตัวอย่างที่ทดลองทำงานได้
+- เขียนบทเรียนทีละขั้น
+- แก้คำผิดและคำอธิบายที่อ่านยาก
+- เพิ่มแหล่งเรียนรู้ที่น่าเชื่อถือ
 
-## Before submitting
+## หลักการเขียน
 
-1. Check whether similar material already exists.
-2. Prefer official documentation for language and tool facts.
-3. State relevant compiler/runtime versions.
-4. Test commands and code where practical.
-5. Keep examples focused and explain expected output.
-6. Never include API keys, passwords, tokens, or private information.
+1. ใช้ภาษาไทยเป็นหลัก ชื่อคำสั่งและศัพท์เทคนิคคงรูปเดิมได้ แต่ให้อธิบายเป็นภาษาไทย
+2. เขียนเหมือนกำลังสอนคนที่เพิ่งเริ่ม ไม่ใช้ศัพท์ยากโดยไม่อธิบาย
+3. อธิบายว่าแต่ละบรรทัดทำอะไร ไม่ใช่แค่วางโค้ดไว้
+4. ระบุสิ่งที่ต้องติดตั้งและวิธีทดลอง
+5. ใส่ผลลัพธ์ที่คาดว่าจะเห็น
+6. ระบุรุ่นของภาษาและเครื่องมือเมื่อมีผลต่อการทำงาน
+7. แยกให้ชัดว่าอะไรคือภาษาโปรแกรม รูปแบบข้อมูล หรือเครื่องมือ
+8. หากยังไม่ได้ทดสอบตัวอย่าง ให้บอกตรง ๆ
+9. ห้ามใส่รหัสผ่าน API key token หรือข้อมูลส่วนตัวลงในตัวอย่าง
 
-## Suggested layout
+## เช็กลิสต์ก่อนส่ง
 
-```text
-languages/<language>/
-├── README.md
-├── basics/
-└── examples/
-    └── hello-world/
-        ├── README.md
-        └── main.<extension>
-```
+- [ ] เนื้อหาเป็นภาษาไทยและอ่านเข้าใจง่าย
+- [ ] อธิบายวิธีทำงานเป็นลำดับ
+- [ ] โค้ดมีคำอธิบายและผลลัพธ์
+- [ ] วิธีติดตั้งและทดลองไม่ทำให้เข้าใจผิด
+- [ ] ตรวจคำสะกดและ Markdown แล้ว
+- [ ] ไม่มีข้อมูลลับหรือข้อมูลส่วนตัว
 
-Use the language's conventional file extension. Avoid putting unrelated languages in the same example directory.
-
-## Pull request checklist
-
-- [ ] The change has a clear purpose.
-- [ ] Code examples were tested, or are clearly marked untested.
-- [ ] Links point to relevant, trustworthy sources.
-- [ ] No secrets or private data are included.
-- [ ] The documentation is clear and readable.
-
-Be respectful and constructive in reviews and discussions.
+ช่วยกันรีวิวอย่างสุภาพ และทำให้คนที่เพิ่งเริ่มเขียนโปรแกรมกล้าลองผิดลองถูก
